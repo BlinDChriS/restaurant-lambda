@@ -1,0 +1,523 @@
+@font-face {
+    font-family: "Yeseva";
+    src: url('../fonts/YesevaOne-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('../fonts/Lato-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Gentium";
+    src: url('../fonts/GenBkBasB.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url('../fonts/OpenSans-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "OpenBold";
+    src: url('../fonts/OpenSans-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "OpenItalic";
+    src: url('../fonts/OpenSans-Italic.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Georgia", Times, serif format("truetype");
+}
+
+
+body {
+    background-color: #191919;
+}
+
+
+
+/* CONTAINERS MARGINS */
+.col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* etc */
+
+.btn {
+    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: "Lato";
+    font-size: 18px;
+    height: 56px;
+    width: 226px;
+    line-height: 56px;
+    margin: 25px 25px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+    padding: .0rem .0rem;
+    border-radius: .0rem;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.rounded-circle {
+    border: "3px";
+}
+
+.divider {
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* NavBar */
+
+
+.navbar-brand {
+    line-height: 100px;
+    font-size: 28px;
+    font-family: 'Gentium', serif;
+    font-weight: bolder;
+    color: #ffffff !important;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+
+.navbargrad {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    /* Standard syntax (must be last) */
+}
+
+.navbar-collapse {
+    font-family: 'Yeseva', serif;
+    font-size: 16px;
+    color: "fff";
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(204, 153, 0, 1)
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1)
+}
+
+
+.navbar-nav .nav-link {
+    padding-right: 10;
+    padding-left: 10
+}
+
+.navbar-nav > li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* Promo Section */
+#Promo {
+    background: #333 url(../img/bg-promo.jpg) fixed center no-repeat;
+    min-height: 758px;
+    color: #fff;
+    background-size: cover;
+}
+
+#Promo-text {
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Ingredients Section */
+#Ingredients {
+    background: #333 url(../img/bg-ingredients.jpg) fixed center no-repeat;
+    min-height: 750px;
+    color: #fff;
+    background-size: cover;
+    font-size: 16px;
+}
+
+#Ingredients-text-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    text-align: center;
+}
+
+.ingredient-pic {
+    margin: 10px 10px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.ingredient-pic:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+/* Reviews Section */
+#Reviews {
+    background: #333 url(../img/bg-reviews.jpg) fixed center no-repeat;
+    min-height: 750px;
+    color: #fff;
+    background-size: cover;
+    font-family: 'Georgia';
+    font-size: 14px;
+    font-weight: thin;
+}
+
+#Reviews-text-bg {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 50px;
+    text-align: center;
+}
+
+reviews .reviews-quote {
+    font-family: 'Georgia';
+    font-size: 96px;
+    color: #f2f4f4;
+}
+
+
+
+/* Footer Section */
+
+#Footer {
+    min-height: 360px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer .footer-text {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    color: #fff;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+footer .footer-text2 {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer .footer-textbold {
+    font-family: 'OpenBold';
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    margin-right: 5px;
+}
+
+footer a:hover {
+    color: #c90;
+}
+
+
+
+
+/* Texts and titles */
+
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Yeseva', serif;
+}
+
+h1 {
+    font-size: 80px;
+    color: #fff;
+    text-shadow: 1px 1px #000000;
+}
+
+h2 {
+    font-size: 36px;
+    color: #c90;
+}
+
+h3 {
+    font-size: 21px;
+    color: #c90;
+}
+
+h4 {
+    font-size: 21px;
+    color: #fff;
+}
+
+h5 {
+    font-size: 28px;
+    color: #fff;
+}
+
+
+p {
+    font-size: 12px;
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+    color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    h1 {
+        font-size: 46px;
+    }
+}
+
+/****************************************************************************************************************/
+/***                                                                                                          ***/
+/***                                                                                                           ***/
+/***                                            CSS DE YOUNESS                                                 ***/
+/***                                                                                                           ***/
+/***                                                                                                           ***/
+/*****************************************************************************************************************/
+
+
+
+
+
+
+
+/* About Section */
+#About {
+    background: url(../img/bg.jpg) repeat;
+}
+
+#About-content-container {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#about-bloc-txt {
+    min-height: 520px;
+}
+
+#about-bloc-dishimg {
+    min-height: 520px;
+}
+
+#dishimg {
+    align-content: center;
+    width: 100%;
+    height: auto
+}
+
+#About-text-title {
+    font-size: 48px;
+    color: #c90;
+    text-align: center;
+    font-family: "Yeseva";
+}
+
+.gold-divider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#About-txt {
+    font-size: 21px;
+    font-family: "Lato";
+    color: #4c4c4c;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#About-cook-photo {
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: 70px;
+    width: 50%;
+}
+
+
+
+
+
+/* Menu Section */
+
+#Menu {
+    background: url(../img/bg-menu.jpg) repeat;
+    min-height: 994px;
+}
+
+/* redondance avec About-content-container */
+#Menu-content-container {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+#left-menu {
+    min-height: 794px;
+}
+
+#right-menu {
+    min-height: 520px;
+}
+
+.Menu-title {
+    font-size: 40px;
+    color: #c90;
+    text-align: center;
+    font-family: "Yeseva";
+}
+
+.Menu-title-bottom {
+    padding-top: 40px;
+}
+
+/* Cette classe permet d'aligner et de coller de chaque côté du container, le nom du plat et son prix */
+.flex-container {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: auto;
+    text-align: center;
+    font-family: "Yeseva";
+    color: #c90;
+    font-size: 21px;
+}
+
+.separator {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.ingredients {
+    font-family: "Lato";
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+
+
+
+/* Reservations Section */
+
+#Reservations {
+    background: url(../img/bg.jpg) repeat;
+    min-height: 710px;
+}
+
+
+#Reservation-content-container {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#risotto {
+    background: url(../img/risotto.jpg) no-repeat;
+    min-height: 510px;
+}
+
+#muesli {
+    background: url(../img/muesli.jpg) no-repeat;
+    min-height: 510px;
+}
+
+#Reservation-form {
+    min-height: 510px;
+}
+
+#spacer {
+    padding-top: 20px;
+}
+
+.Reservation-txt {
+    text-align: center;
+    font-family: "Lato";
+    font-size: 17px;
+}
+
+/* ******** fin du YOUNESS CSS ******** */
+/* ************************************ */
+
+
+
+
+/****** CHANTIER FORMULAIRE *******/
+
+
+.input-style {
+    border-color: #C90;
+    border-style: solid;
+    border-radius: 0px;
+}
+
+.txt-col {
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.form-id {
+    margin-bottom: 2px;
+    font-family: "Lato";
+    font-size: 15px;
+    color: #C90;
+}
+
+.left-col-form {
+    min-height: 139px;
+    max-height: 139px;
+}
+
+.right-col-form {
+    min-height: 139px;
+    max-height: 139px;
+}
+
+.left-input-padding {
+    padding-right: 15px;
+}
+
+.right-input-padding {
+    padding-left: 15px;
+}
