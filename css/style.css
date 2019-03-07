@@ -39,11 +39,6 @@ body {
 
 
 
-/* CONTAINERS MARGINS */
-.col-md-12 {
-    padding-right: 0;
-    padding-left: 0;
-}
 
 /* etc */
 
@@ -467,6 +462,11 @@ a:hover {
     min-height: 510px;
 }
 
+#Reservation-form.no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
 #spacer {
     padding-top: 20px;
 }
@@ -494,7 +494,6 @@ a:hover {
 
 .txt-col {
     min-height: 300px;
-    max-height: 300px;
 }
 
 .form-id {
@@ -505,13 +504,13 @@ a:hover {
 }
 
 .left-col-form {
-    min-height: 139px;
-    max-height: 139px;
+    min-height: 60px;
+    padding-bottom: 15px;
 }
 
 .right-col-form {
-    min-height: 139px;
-    max-height: 139px;
+    min-height: 60px;
+    padding-bottom: 15px;
 }
 
 .left-input-padding {
